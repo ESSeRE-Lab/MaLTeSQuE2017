@@ -1,0 +1,19 @@
+version: '2'
+services:
+  install:
+    image: starefossen/github-pages
+    volumes:
+      - /root/.gem
+      - /usr/local/lib/ruby/gems
+      - /usr/local/bundle
+      - ./:/usr/src/app
+    command: bundle install
+  serve:
+    image: starefossen/github-pages
+    volumes_from:
+      - install
+    ports:
+      - "4000:4000"
+#    environment:
+#      -e JEKYLL_GITHUB_TOKEN=my-github-token \
+#    command: bundle install
