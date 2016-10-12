@@ -16,7 +16,7 @@
 title: MaLTeSQuE-2017
 email: marco.zanoni@disco.unimib.it
 description: > # this means to ignore newlines until "baseurl:"
-  Workshop on Machine Learning Techniques for Software Quality Evaluation
+  1st Workshop on Machine Learning Techniques for Software Quality Evaluation
 baseurl: "/MaLTeSQuE2017" # the subpath of your site, e.g. /blog
 url: "https://essere-lab.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb

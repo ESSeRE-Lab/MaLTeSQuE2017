@@ -1,12 +1,8 @@
 ---
-layout: default
+layout: home
 ---
 
-# MaLTeSQuE-2017 - Workshop on Machine Learning Techniques for Software Quality Evaluation 
-
-collocated with SANER 2017 
-
-Klagenfurt, February 20-24, 2017 
+**Collocated with [SANER 2017](http://saner.aau.at/), Klagenfurt, February 20-24, 2017**
 
 In recent years we have been observing a rising interest in adopting various approaches to exploiting machine learning (ML) and automated decision-making processes in several areas of software engineering. These models and algorithms help to reduce effort and risk related to human judgment in favor of automated systems, which are able to make informed decisions based on available data and evaluated with objective criteria. 
 Software quality is the area that deserves particular attention. At all levels, source code quality, process quality and the quality of entire systems, researchers are still looking for new, more effective methods of evaluating various qualitative characteristics of software systems and the related processes. 

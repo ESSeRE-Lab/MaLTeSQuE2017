@@ -16,4 +16,5 @@ services:
       - "4000:4000"
 #    environment:
 #      -e JEKYLL_GITHUB_TOKEN=my-github-token \
-#    command: bundle install
+# COMMAND is copied from Dockerfile, with the addition of --incremental
+    command: jekyll serve -d /_site --incremental --watch --force_polling -H 0.0.0.0 -P 4000
